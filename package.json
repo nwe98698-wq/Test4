@@ -1,0 +1,28 @@
+{
+  "name": "auto-lottery-bot",
+  "version": "1.0.0",
+  "description": "Auto Lottery Bot for Telegram",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "lottery"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
